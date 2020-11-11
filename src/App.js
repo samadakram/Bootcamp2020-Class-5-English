@@ -6,7 +6,7 @@ import './App.css';
 function App() {
 
   // let [number, setNumber] = useState(0);
-  let value = 21;
+  let value = useState(0);
   return (
     <ValueContext.Provider value={value} >
       <div className="App">
