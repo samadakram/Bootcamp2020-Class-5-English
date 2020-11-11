@@ -8,6 +8,8 @@ const Child2 = () => {
         <div>
             <h1>Child 2 Component</h1>
             <h2>Child 2 counter : {state} </h2>
+            <button onClick={()=> {dispatch({type:'INCREMENT'});}} >Increment</button>
+            <button onClick={()=> {dispatch({type:'DECREMENT'});} } >Decrement</button>
         </div>
     );
 }
